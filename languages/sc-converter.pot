@@ -1,0 +1,89 @@
+# Copyright (C) 2020 Loïc Blascos
+# This file is distributed under the same license as the Shortcodes converter plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Shortcodes converter 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/shortcodes-converter\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-01-31T10:53:53+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.2.0\n"
+"X-Domain: sc-converter\n"
+
+#. Plugin Name of the plugin
+msgid "Shortcodes converter"
+msgstr ""
+
+#. Description of the plugin
+#: includes/class-plugin.php:73
+msgid "Convert shortcodes to Gutenberg blocks."
+msgstr ""
+
+#. Author of the plugin
+msgid "Loïc Blascos"
+msgstr ""
+
+#: includes/class-async.php:69
+msgid "Sorry, an unknown error occurred."
+msgstr ""
+
+#: includes/class-async.php:114
+msgid "You are not allowed to do this action."
+msgstr ""
+
+#: includes/class-async.php:133
+msgid "An error occurred. Please try to refresh the page or logout and login again."
+msgstr ""
+
+#: includes/class-converter.php:128
+msgid "Cleaned!"
+msgstr ""
+
+#. translators: %d: progress in percent
+#: includes/class-converter.php:170
+msgid "Processing... %s%%"
+msgstr ""
+
+#: includes/class-plugin.php:99
+#: includes/class-plugin.php:100
+msgid "Shortcodes Converter"
+msgstr ""
+
+#. translators: %d: progress in percent
+#: includes/class-plugin.php:133
+msgid "Processing... %d%%"
+msgstr ""
+
+#: includes/views/page.php:16
+msgid "Convert Shortcodes"
+msgstr ""
+
+#: includes/views/page.php:17
+msgid "Convert"
+msgstr ""
+
+#: includes/views/page.php:18
+#: includes/views/page.php:22
+#: includes/views/page.php:26
+msgid "Cancel"
+msgstr ""
+
+#: includes/views/page.php:20
+msgid "Restore Shortcodes"
+msgstr ""
+
+#: includes/views/page.php:21
+msgid "Restore"
+msgstr ""
+
+#: includes/views/page.php:24
+msgid "Cleanup Content"
+msgstr ""
+
+#: includes/views/page.php:25
+msgid "Cleanup"
+msgstr ""

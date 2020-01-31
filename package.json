@@ -1,0 +1,25 @@
+{
+	"name": "shortcodes-converter",
+	"version": "1.0.0",
+	"engines": {
+		"node": ">=13.7.0",
+		"npm": ">=6.2.0"
+	},
+	"devDependencies": {
+		"@babel/core": "7.8.4",
+		"@babel/preset-env": "^7.8.4",
+		"@wordpress/i18n": "^3.8.0",
+		"babel-loader": "8.0.6",
+		"cross-env": "^7.0.0",
+		"webpack": "4.41.5",
+		"webpack-cli": "^3.3.10",
+		"wp-pot": "^1.8.0",
+		"npm-cli": "^0.1.0"
+	},
+	"scripts": {
+		"dev": "cross-env NODE_ENV=development webpack --watch",
+		"build": "cross-env NODE_ENV=production webpack",
+		"make-pot": "wp i18n make-pot . languages/sc-converter.pot",
+		"package-plugin": ".\\bin\\build-plugin-zip.sh"
+	}
+}
