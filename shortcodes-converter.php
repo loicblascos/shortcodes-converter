@@ -17,7 +17,7 @@
  * Domain Path:  /languages
  */
 
- namespace Shortcodes_Converter;
+namespace Shortcodes_Converter;
 
 // Exit if accessed directly.
 if ( ! defined( 'ABSPATH' ) ) {
